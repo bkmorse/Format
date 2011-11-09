@@ -56,6 +56,10 @@ $plugin_info = array(
       case "italic":
         $this->return_data = "<i>".$this->EE->TMPL->tagdata."</i>";
         break;
+      default:
+        // did not specify type, return data untouched
+        $this->return_data = $this->EE->TMPL->tagdata;
+        break;
     }
   }
 	// ----------------------------------------------------------------
