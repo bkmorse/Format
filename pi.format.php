@@ -71,9 +71,9 @@ $plugin_info = array(
 	{
 		ob_start();
 ?>
-  {exp:format type="upper"}This should be converted to uppercase{/exp:format}
+  {exp:format type="uppercase"}This should be converted to uppercase{/exp:format}
   
-  Format text to be bold, upper, lower case, italic
+  Format text to be bold, uppercase, lowercase, italic
   
   type options: uppercase, lowercase, bold, italic
 <?php
